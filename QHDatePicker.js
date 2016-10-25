@@ -128,11 +128,13 @@ var DayMonth = React.createClass({
     }
   },
   handleDayClick: function (day) {
-    this.setState({
-      current_selection: day
-    });
+		if(day) {
+			this.setState({
+				current_selection: day
+			});
 
-    this.props.onClick(day);
+			this.props.onClick(day);
+		}
   },
   render: function () {
     var MAX_COLS = 7;
