@@ -44,7 +44,7 @@ e.g
 var d = new Date();
 
 year: d.getFullYear(),
-month: d.getMonth() - 1,
+month: d.getMonth() + 1,
 day: d.getDate()
 ```
 
