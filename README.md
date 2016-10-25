@@ -5,4 +5,4 @@ React bits and bobs
 
 Simple inline date picker using React
 
-https://github.com/quangas/images/qh-datepicker.png
+![qh-datepicker screenshot](https://github.com/quangas/react-controls/blob/master/qh-datepicker.png)
